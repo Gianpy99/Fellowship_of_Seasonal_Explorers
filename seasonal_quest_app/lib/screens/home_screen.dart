@@ -4,6 +4,7 @@ import '../models/quest.dart';
 import '../models/user_progress.dart';
 import '../models/badge.dart' as badge_model;
 import '../services/quest_service.dart';
+import '../services/user_progress_service.dart';
 import '../widgets/quest_card.dart';
 import '../widgets/badge_widget.dart';
 import 'quest_detail_screen.dart';
@@ -39,8 +40,8 @@ class _HomeScreenState extends State<HomeScreen> {
       final quests = await QuestService.loadQuests();
       final stats = QuestService.getStatistics(quests);
       
-      // Load user progress from LocalStorage (for now, empty)
-      final progress = UserProgress.empty();
+      // Load user progress from SharedPreferences (now persisted!)
+      final progress = await UserProgressService.loadUserProgress();
       
       setState(() {
         _quests = quests;
@@ -51,6 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
       
       print('✅ Loaded ${quests.length} quests from JSON');
       print('📊 Statistics: $stats');
+      print('💾 Loaded progress: ${UserProgressService.getStats(progress)}');
     } catch (e) {
       print('❌ Error loading quests: $e');
       setState(() => _isLoading = false);
@@ -98,10 +100,14 @@ class _HomeScreenState extends State<HomeScreen> {
         builder: (context) => QuestDetailScreen(
           quest: quest,
           isCompleted: _userProgress.isQuestCompleted(quest.id),
-          onComplete: () {
+          onComplete: () async {
+            final updated = _userProgress.copyWithCompletedQuest(quest.id);
+            // Save to persistent storage
+            await UserProgressService.saveUserProgress(updated);
             setState(() {
-              _userProgress = _userProgress.copyWithCompletedQuest(quest.id);
+              _userProgress = updated;
             });
+            print('💾 Quest progress saved: ${quest.nameIt}');
           },
         ),
       ),
