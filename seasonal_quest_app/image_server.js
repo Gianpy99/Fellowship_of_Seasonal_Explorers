@@ -121,9 +121,65 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', images: Object.keys(imageStore).length });
 });
 
+// ============================================
+// USER PROGRESS ENDPOINTS
+// ============================================
+
+// Store progress in memory
+let userProgress = {
+  completedQuestIds: [],
+  visitedLocationIds: [],
+  unlockedBadges: [],
+  lastUpdated: new Date().toISOString(),
+};
+
+// GET: Retrieve user progress
+app.get('/api/progress', (req, res) => {
+  console.log(`📊 Retrieved progress: ${userProgress.completedQuestIds.length} quests completed`);
+  res.json(userProgress);
+});
+
+// POST: Save user progress
+app.post('/api/progress', (req, res) => {
+  try {
+    const { completedQuestIds, visitedLocationIds, unlockedBadges, lastUpdated } = req.body;
+    
+    if (!completedQuestIds) {
+      return res.status(400).json({ error: 'Missing completed_quest_ids' });
+    }
+    
+    userProgress = {
+      completedQuestIds,
+      visitedLocationIds: visitedLocationIds || [],
+      unlockedBadges: unlockedBadges || [],
+      lastUpdated: lastUpdated || new Date().toISOString(),
+    };
+    
+    console.log(`💾 Saved progress: ${completedQuestIds.length} quests completed`);
+    res.json({ success: true, progress: userProgress });
+  } catch (err) {
+    console.error('Error saving progress:', err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// DELETE: Clear progress
+app.delete('/api/progress', (req, res) => {
+  userProgress = {
+    completedQuestIds: [],
+    visitedLocationIds: [],
+    unlockedBadges: [],
+    lastUpdated: new Date().toISOString(),
+  };
+  
+  console.log(`🗑️ Cleared all progress`);
+  res.json({ success: true, progress: userProgress });
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 Image server running on http://localhost:${PORT}`);
-  console.log(`� Store: Memory cache + Persistent disk storage`);
+  console.log(`🛡️ Store: Memory cache + Persistent disk storage`);
   console.log(`📁 Image directory: ${IMAGES_DIR}`);
+  console.log(`📊 User Progress endpoints available`);
   loadImagesFromDisk();
 });

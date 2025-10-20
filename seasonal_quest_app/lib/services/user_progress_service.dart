@@ -1,45 +1,54 @@
 import 'dart:convert';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:http/http.dart' as http;
 import '../models/user_progress.dart';
 
-/// Service to handle user progress persistence
+/// Service to handle user progress persistence via server
 class UserProgressService {
-  static const String _storageKey = 'user_progress';
+  static const String _serverUrl = 'http://localhost:3000/api/progress';
+  static const String _timeout = '10'; // seconds
   
-  /// Load user progress from SharedPreferences
+  /// Load user progress from server
   static Future<UserProgress> loadUserProgress() async {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final jsonString = prefs.getString(_storageKey);
+      final response = await http
+          .get(Uri.parse(_serverUrl))
+          .timeout(Duration(seconds: int.parse(_timeout)));
       
-      if (jsonString == null) {
-        print('📝 No saved progress found - creating empty progress');
+      if (response.statusCode == 200) {
+        final json = jsonDecode(response.body) as Map<String, dynamic>;
+        final progress = UserProgress.fromJson(json);
+        print('✅ Loaded progress from server: ${progress.completedQuestIds.length} quests');
+        return progress;
+      } else {
+        print('⚠️ Server error loading progress: ${response.statusCode}');
         return UserProgress.empty();
       }
-      
-      final json = jsonDecode(jsonString) as Map<String, dynamic>;
-      final progress = UserProgress.fromJson(json);
-      print('✅ Loaded user progress: ${progress.completedQuestIds.length} quests completed');
-      return progress;
     } catch (e) {
-      print('⚠️ Error loading user progress: $e');
+      print('⚠️ Error loading progress from server: $e');
       return UserProgress.empty();
     }
   }
   
-  /// Save user progress to SharedPreferences
+  /// Save user progress to server
   static Future<bool> saveUserProgress(UserProgress progress) async {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final jsonString = jsonEncode(progress.toJson());
-      final saved = await prefs.setString(_storageKey, jsonString);
+      final response = await http
+          .post(
+            Uri.parse(_serverUrl),
+            headers: {'Content-Type': 'application/json'},
+            body: jsonEncode(progress.toJson()),
+          )
+          .timeout(Duration(seconds: int.parse(_timeout)));
       
-      if (saved) {
-        print('💾 Saved progress: ${progress.completedQuestIds.length} quests');
+      if (response.statusCode == 200) {
+        print('💾 Saved progress to server: ${progress.completedQuestIds.length} quests');
+        return true;
+      } else {
+        print('❌ Server error saving progress: ${response.statusCode}');
+        return false;
       }
-      return saved;
     } catch (e) {
-      print('❌ Error saving user progress: $e');
+      print('❌ Error saving progress to server: $e');
       return false;
     }
   }
@@ -51,7 +60,6 @@ class UserProgressService {
   ) async {
     final updated = progress.copyWithCompletedQuest(questId);
     await saveUserProgress(updated);
-    print('✅ Quest completed: $questId');
     return updated;
   }
   
@@ -62,17 +70,21 @@ class UserProgressService {
   ) async {
     final updated = progress.copyWithVisitedLocation(locationId);
     await saveUserProgress(updated);
-    print('🗺️ Location visited: $locationId');
     return updated;
   }
   
-  /// Clear all user progress (for testing/reset)
+  /// Clear all user progress
   static Future<bool> clearAllProgress() async {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final cleared = await prefs.remove(_storageKey);
-      print('🗑️ Cleared all user progress');
-      return cleared;
+      final response = await http
+          .delete(Uri.parse(_serverUrl))
+          .timeout(Duration(seconds: int.parse(_timeout)));
+      
+      if (response.statusCode == 200) {
+        print('🗑️ Cleared all progress on server');
+        return true;
+      }
+      return false;
     } catch (e) {
       print('❌ Error clearing progress: $e');
       return false;
