@@ -1,5 +1,6 @@
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'quest_location.dart';
+import '../data/calabria_towns.dart';
 
 /// Represents a seasonal quest (seasonal product to discover)
 class Quest {
@@ -19,6 +20,22 @@ class Quest {
   final String? imageIconPath;
   final String? imageStoryPath;
   final String? imageRecipePath;
+  final String? localTown; // Città calabrese specifica del prodotto
+  
+  // AI-generated images (stored in assets/images/generated/)
+  final String? generatedIconPath;
+  final List<String>? generatedStoryPaths; // One per story
+  final String? generatedRecipePath;
+  
+  // Custom AI prompts (saved when user modifies them)
+  final String? customIconPrompt;
+  final String? customStoryPrompt;
+  final String? customRecipePrompt;
+  
+  // Cached images as base64 (stored in seasonal_data.json)
+  final String? cachedIconBase64; // Icon image
+  final List<String>? cachedStoryBase64; // Story images (one per story)
+  final String? cachedRecipeBase64; // Recipe image
   
   Quest({
     required this.id,
@@ -37,7 +54,29 @@ class Quest {
     this.imageIconPath,
     this.imageStoryPath,
     this.imageRecipePath,
+    this.localTown,
+    this.generatedIconPath,
+    this.generatedStoryPaths,
+    this.generatedRecipePath,
+    this.customIconPrompt,
+    this.customStoryPrompt,
+    this.customRecipePrompt,
+    this.cachedIconBase64,
+    this.cachedStoryBase64,
+    this.cachedRecipeBase64,
   });
+  
+  /// Get real GPS coordinates for this quest's town
+  LatLng get coordinates {
+    return CalabriaTowns.getCoordinates(localTown);
+  }
+  
+  /// Get town-specific emoji
+  String get townEmoji {
+    return localTown != null 
+        ? CalabriaTowns.getTownEmoji(localTown!) 
+        : location.typeEmoji;
+  }
   
   /// Check if quest is available in current month
   bool isAvailableInMonth(int month) {
@@ -95,6 +134,15 @@ class Quest {
       imageIconPath: json['image_icon_path'] as String?,
       imageStoryPath: json['image_story_path'] as String?,
       imageRecipePath: json['image_recipe_path'] as String?,
+      localTown: json['local_town'] as String?,
+      generatedIconPath: json['generated_icon_path'] as String?,
+      generatedStoryPaths: json['generated_story_paths'] != null
+          ? (json['generated_story_paths'] as List).cast<String>()
+          : null,
+      generatedRecipePath: json['generated_recipe_path'] as String?,
+      customIconPrompt: json['custom_icon_prompt'] as String?,
+      customStoryPrompt: json['custom_story_prompt'] as String?,
+      customRecipePrompt: json['custom_recipe_prompt'] as String?,
     );
   }
   
@@ -120,6 +168,7 @@ class Quest {
       'image_icon_path': imageIconPath,
       'image_story_path': imageStoryPath,
       'image_recipe_path': imageRecipePath,
+      'local_town': localTown,
     };
   }
 }

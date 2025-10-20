@@ -15,6 +15,9 @@ migrate_working_dir/
 # Google Maps API Key (SECURITY: DO NOT COMMIT)
 web/index.html
 
+# API Keys Configuration (SECURITY: DO NOT COMMIT)
+lib/config/api_keys.dart
+
 # IntelliJ related
 *.iml
 *.ipr

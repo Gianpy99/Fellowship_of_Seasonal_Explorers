@@ -70,6 +70,13 @@ class QuestService {
       location: location,
       storyIt: storyIt,
       storyEn: storyEn,
+      localTown: json['local_town'] as String?,
+      // Cached images from JSON
+      cachedIconBase64: json['cachedIconBase64'] as String?,
+      cachedStoryBase64: (json['cachedStoryBase64'] as List?)
+          ?.cast<String>()
+          .toList(),
+      cachedRecipeBase64: json['cachedRecipeBase64'] as String?,
     );
   }
   

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'dart:typed_data';
 import '../models/quest.dart';
+import '../services/simple_image_service.dart';
 
 /// Reusable card widget for displaying quest information
-class QuestCard extends StatelessWidget {
+class QuestCard extends StatefulWidget {
   final Quest quest;
   final bool isCompleted;
   final VoidCallback onTap;
@@ -13,10 +15,43 @@ class QuestCard extends StatelessWidget {
     required this.isCompleted,
     required this.onTap,
   });
-  
+
+  @override
+  State<QuestCard> createState() => _QuestCardState();
+}
+
+class _QuestCardState extends State<QuestCard> {
+  Uint8List? _cachedImage;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadCachedImage();
+  }
+
+  Future<void> _loadCachedImage() async {
+    final cacheKey = SimpleImageService.cacheKey(widget.quest.id, 'icon');
+    print('🔍 [${widget.quest.nameIt}] Checking cache for key: $cacheKey');
+    
+    // Check if cached (memory or SharedPreferences)
+    final hasCache = await SimpleImageService.hasCachedImage(cacheKey);
+    print('   Has cached image: $hasCache');
+    
+    if (hasCache) {
+      // Get from cache
+      final image = await SimpleImageService.getImageFromCache(cacheKey);
+      print('   Got image bytes: ${image != null ? "${image.length} bytes" : "null"}');
+      
+      if (image != null && mounted) {
+        print('   ✅ Setting cached image for ${widget.quest.nameIt}');
+        setState(() => _cachedImage = image);
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    final seasonName = quest.getSeasonName();
+    final seasonName = widget.quest.getSeasonName();
     final isInSeason = seasonName == 'In season' || seasonName == 'In harvest!';
     
     return Card(
@@ -29,7 +64,7 @@ class QuestCard extends StatelessWidget {
             : BorderSide.none,
       ),
       child: InkWell(
-        onTap: onTap,
+        onTap: widget.onTap,
         borderRadius: BorderRadius.circular(12),
         child: Padding(
           padding: EdgeInsets.all(16),
@@ -43,11 +78,37 @@ class QuestCard extends StatelessWidget {
                   color: Colors.green.shade50,
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Center(
-                  child: Text(
-                    quest.categoryEmoji,
-                    style: TextStyle(fontSize: 40),
-                  ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: 
+                      // Priority 1: Cached image (from memory/LocalStorage)
+                      _cachedImage != null
+                      ? Image.memory(
+                          _cachedImage!,
+                          fit: BoxFit.cover,
+                        )
+                      // Priority 2: Asset image
+                      : widget.quest.generatedIconPath != null
+                      ? Image.asset(
+                          widget.quest.generatedIconPath!,
+                          fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) {
+                            // Fallback to emoji if image not found
+                            return Center(
+                              child: Text(
+                                widget.quest.categoryEmoji,
+                                style: TextStyle(fontSize: 40),
+                              ),
+                            );
+                          },
+                        )
+                      // Priority 3: Emoji fallback
+                      : Center(
+                          child: Text(
+                            widget.quest.categoryEmoji,
+                            style: TextStyle(fontSize: 40),
+                          ),
+                        ),
                 ),
               ),
               SizedBox(width: 16),
@@ -59,7 +120,7 @@ class QuestCard extends StatelessWidget {
                   children: [
                     // Name
                     Text(
-                      quest.nameIt,
+                      widget.quest.nameIt,
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -74,7 +135,7 @@ class QuestCard extends StatelessWidget {
                         SizedBox(width: 4),
                         Expanded(
                           child: Text(
-                            quest.location.name,
+                            widget.quest.localTown ?? widget.quest.location.name,
                             style: TextStyle(
                               fontSize: 13,
                               color: Colors.grey.shade700,
@@ -105,7 +166,7 @@ class QuestCard extends StatelessWidget {
                           ),
                         ),
                         SizedBox(width: 8),
-                        if (isCompleted)
+                        if (widget.isCompleted)
                           Icon(Icons.check_circle, color: Colors.green, size: 20),
                       ],
                     ),

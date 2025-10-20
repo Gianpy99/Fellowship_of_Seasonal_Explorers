@@ -1,0 +1,27 @@
+/// API Keys Configuration Template
+/// ⚠️ This is a template file. DO NOT add real API keys here!
+/// 
+/// To configure API keys:
+/// 1. Copy this file to lib/config/api_keys.dart
+/// 2. Replace the empty strings with your actual API keys
+/// 3. The real api_keys.dart is gitignored and won't be committed
+///
+/// Get your API keys:
+/// - Gemini API: https://aistudio.google.com/apikey
+/// - Google Maps API: https://console.cloud.google.com/google/maps-apis
+
+class ApiKeys {
+  // Gemini API Key for AI image generation
+  static const String geminiApiKey = 'YOUR_GEMINI_API_KEY_HERE';
+  
+  // Google Maps API Key
+  static const String googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY_HERE';
+  
+  /// Check if API keys are configured
+  static bool get isConfigured {
+    return geminiApiKey.isNotEmpty && 
+           geminiApiKey != 'YOUR_GEMINI_API_KEY_HERE' &&
+           googleMapsApiKey.isNotEmpty &&
+           googleMapsApiKey != 'YOUR_GOOGLE_MAPS_API_KEY_HERE';
+  }
+}

@@ -1,13 +1,9 @@
-import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import '../models/quest.dart';
-import '../models/quest_location.dart';
-import '../models/badge.dart' as models;
 import '../models/user_progress.dart';
 import '../services/quest_service.dart';
 import '../widgets/quest_card.dart';
-import '../widgets/badge_widget.dart';
 import 'quest_detail_screen.dart';
 
 /// Main home screen with Google Maps and quest list
@@ -69,13 +65,13 @@ class _HomeScreenState extends State<HomeScreen> {
       
       return Marker(
         markerId: MarkerId(quest.id),
-        position: quest.location.coordinates,
+        position: quest.coordinates, // Uses real GPS coordinates from local_town
         icon: BitmapDescriptor.defaultMarkerWithHue(
           isCompleted ? BitmapDescriptor.hueGreen : BitmapDescriptor.hueOrange,
         ),
         infoWindow: InfoWindow(
           title: quest.nameIt,
-          snippet: quest.location.name,
+          snippet: quest.localTown ?? quest.location.name,
           onTap: () => _onQuestSelected(quest),
         ),
         onTap: () => _onQuestSelected(quest),
@@ -112,7 +108,6 @@ class _HomeScreenState extends State<HomeScreen> {
   
   @override
   Widget build(BuildContext context) {
-    final currentMonth = DateTime.now().month;
     final completedCount = _userProgress.completedQuestIds.length;
     
     // Show loading indicator
@@ -194,15 +189,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                 ),
-                BadgeShowcase(
-                  badges: models.Badges.all,
-                  progressMap: {
-                    'spring_explorer': completedCount,
-                    'fruit_collector': completedCount,
-                    'market_explorer': _userProgress.visitedLocationIds.length,
-                    'seasonal_master': completedCount,
-                  },
-                ),
+                // Badge showcase (coming soon)
               ],
             ),
           ),

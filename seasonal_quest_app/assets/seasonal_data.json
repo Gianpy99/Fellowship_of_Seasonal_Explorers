@@ -125,16 +125,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Reggio Calabria, Lina e il folletto Taro scoprirono il bergamotto tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il bergamotto brillava come una piccola gemma nascosta tra gli ulivi di Reggio Calabria; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il bergamotto appena colto e quello del mercato. Il primo profumava di terra e mare di Reggio Calabria, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Reggio Calabria"
     },
     {
       "id": "arancia_calabria",
@@ -262,16 +263,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Rossano, Lina e il folletto Taro scoprirono il arancia tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il arancia brillava come una piccola gemma nascosta tra gli ulivi di Rossano; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il arancia appena colto e quello del mercato. Il primo profumava di terra e mare di Rossano, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Rossano"
     },
     {
       "id": "mandarino_calabria",
@@ -398,16 +400,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Belvedere Marittimo, Lina e il folletto Taro scoprirono il mandarino tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il mandarino brillava come una piccola gemma nascosta tra gli ulivi di Belvedere Marittimo; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il mandarino appena colto e quello del mercato. Il primo profumava di terra e mare di Belvedere Marittimo, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Belvedere Marittimo"
     },
     {
       "id": "limone_calabria",
@@ -530,16 +533,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Tropea, Lina e il folletto Taro scoprirono il limone tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il limone brillava come una piccola gemma nascosta tra gli ulivi di Tropea; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il limone appena colto e quello del mercato. Il primo profumava di terra e mare di Tropea, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Tropea"
     },
     {
       "id": "kiwi_calabria",
@@ -659,16 +663,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Lamezia Terme, Lina e il folletto Taro scoprirono il kiwi tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il kiwi brillava come una piccola gemma nascosta tra gli ulivi di Lamezia Terme; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il kiwi appena colto e quello del mercato. Il primo profumava di terra e mare di Lamezia Terme, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Lamezia Terme"
     },
     {
       "id": "fico_calabria",
@@ -783,16 +788,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Cosenza, Lina e il folletto Taro scoprirono il fico tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il fico brillava come una piccola gemma nascosta tra gli ulivi di Cosenza; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il fico appena colto e quello del mercato. Il primo profumava di terra e mare di Cosenza, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Cosenza"
     },
     {
       "id": "ciliegia_calabria",
@@ -907,16 +913,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Serra San Bruno, Lina e il folletto Taro scoprirono il ciliegia tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il ciliegia brillava come una piccola gemma nascosta tra gli ulivi di Serra San Bruno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il ciliegia appena colto e quello del mercato. Il primo profumava di terra e mare di Serra San Bruno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Serra San Bruno"
     },
     {
       "id": "pesca_calabria",
@@ -1033,16 +1040,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Pizzo Calabro, Lina e il folletto Taro scoprirono il pesca tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pesca brillava come una piccola gemma nascosta tra gli ulivi di Pizzo Calabro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pesca appena colto e quello del mercato. Il primo profumava di terra e mare di Pizzo Calabro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Pizzo Calabro"
     },
     {
       "id": "mela_calabria",
@@ -1164,16 +1172,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Polistena, Lina e il folletto Taro scoprirono il mela tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il mela brillava come una piccola gemma nascosta tra gli ulivi di Polistena; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il mela appena colto e quello del mercato. Il primo profumava di terra e mare di Polistena, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Polistena"
     },
     {
       "id": "pera_calabria",
@@ -1291,16 +1300,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Catanzaro, Lina e il folletto Taro scoprirono il pera tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pera brillava come una piccola gemma nascosta tra gli ulivi di Catanzaro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pera appena colto e quello del mercato. Il primo profumava di terra e mare di Catanzaro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Catanzaro"
     },
     {
       "id": "uva_calabria",
@@ -1415,16 +1425,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Catanzaro, Lina e il folletto Taro scoprirono il uva tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il uva brillava come una piccola gemma nascosta tra gli ulivi di Catanzaro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il uva appena colto e quello del mercato. Il primo profumava di terra e mare di Catanzaro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Catanzaro"
     },
     {
       "id": "melograno_calabria",
@@ -1541,16 +1552,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Serra San Bruno, Lina e il folletto Taro scoprirono il melograno tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il melograno brillava come una piccola gemma nascosta tra gli ulivi di Serra San Bruno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il melograno appena colto e quello del mercato. Il primo profumava di terra e mare di Serra San Bruno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Serra San Bruno"
     },
     {
       "id": "melone_calabria",
@@ -1667,16 +1679,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Siderno, Lina e il folletto Taro scoprirono il melone tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il melone brillava come una piccola gemma nascosta tra gli ulivi di Siderno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il melone appena colto e quello del mercato. Il primo profumava di terra e mare di Siderno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Siderno"
     },
     {
       "id": "anguria_calabria",
@@ -1791,16 +1804,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Scalea, Lina e il folletto Taro scoprirono il anguria tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il anguria brillava come una piccola gemma nascosta tra gli ulivi di Scalea; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il anguria appena colto e quello del mercato. Il primo profumava di terra e mare di Scalea, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Scalea"
     },
     {
       "id": "fragola_calabria",
@@ -1919,16 +1933,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Soverato, Lina e il folletto Taro scoprirono il fragola tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il fragola brillava come una piccola gemma nascosta tra gli ulivi di Soverato; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il fragola appena colto e quello del mercato. Il primo profumava di terra e mare di Soverato, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Soverato"
     },
     {
       "id": "pomodoro_calabria",
@@ -2047,16 +2062,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Siderno, Lina e il folletto Taro scoprirono il pomodoro tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pomodoro brillava come una piccola gemma nascosta tra gli ulivi di Siderno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pomodoro appena colto e quello del mercato. Il primo profumava di terra e mare di Siderno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Siderno"
     },
     {
       "id": "zucchina_calabria",
@@ -2177,16 +2193,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Amantea, Lina e il folletto Taro scoprirono il zucchina tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il zucchina brillava come una piccola gemma nascosta tra gli ulivi di Amantea; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il zucchina appena colto e quello del mercato. Il primo profumava di terra e mare di Amantea, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Amantea"
     },
     {
       "id": "melanzana_calabria",
@@ -2305,16 +2322,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Tropea, Lina e il folletto Taro scoprirono il melanzana tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il melanzana brillava come una piccola gemma nascosta tra gli ulivi di Tropea; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il melanzana appena colto e quello del mercato. Il primo profumava di terra e mare di Tropea, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Tropea"
     },
     {
       "id": "peperone_calabria",
@@ -2431,16 +2449,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Belvedere Marittimo, Lina e il folletto Taro scoprirono il peperone tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il peperone brillava come una piccola gemma nascosta tra gli ulivi di Belvedere Marittimo; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il peperone appena colto e quello del mercato. Il primo profumava di terra e mare di Belvedere Marittimo, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Belvedere Marittimo"
     },
     {
       "id": "carota_calabria",
@@ -2563,16 +2582,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Cosenza, Lina e il folletto Taro scoprirono il carota tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il carota brillava come una piccola gemma nascosta tra gli ulivi di Cosenza; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il carota appena colto e quello del mercato. Il primo profumava di terra e mare di Cosenza, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Cosenza"
     },
     {
       "id": "patata_calabria",
@@ -2695,16 +2715,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Locri, Lina e il folletto Taro scoprirono il patata tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il patata brillava come una piccola gemma nascosta tra gli ulivi di Locri; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il patata appena colto e quello del mercato. Il primo profumava di terra e mare di Locri, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Locri"
     },
     {
       "id": "cipolla_calabria",
@@ -2827,16 +2848,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Siderno, Lina e il folletto Taro scoprirono il cipolla tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il cipolla brillava come una piccola gemma nascosta tra gli ulivi di Siderno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il cipolla appena colto e quello del mercato. Il primo profumava di terra e mare di Siderno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Siderno"
     },
     {
       "id": "aglio_calabria",
@@ -2960,16 +2982,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Belvedere Marittimo, Lina e il folletto Taro scoprirono il aglio tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il aglio brillava come una piccola gemma nascosta tra gli ulivi di Belvedere Marittimo; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il aglio appena colto e quello del mercato. Il primo profumava di terra e mare di Belvedere Marittimo, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Belvedere Marittimo"
     },
     {
       "id": "cavolfiore_calabria",
@@ -3092,16 +3115,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Bagnara Calabra, Lina e il folletto Taro scoprirono il cavolfiore tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il cavolfiore brillava come una piccola gemma nascosta tra gli ulivi di Bagnara Calabra; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il cavolfiore appena colto e quello del mercato. Il primo profumava di terra e mare di Bagnara Calabra, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Bagnara Calabra"
     },
     {
       "id": "verza_calabria",
@@ -3220,16 +3244,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Catanzaro, Lina e il folletto Taro scoprirono il verza tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il verza brillava come una piccola gemma nascosta tra gli ulivi di Catanzaro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il verza appena colto e quello del mercato. Il primo profumava di terra e mare di Catanzaro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Catanzaro"
     },
     {
       "id": "spinacio_calabria",
@@ -3350,16 +3375,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Diamante, Lina e il folletto Taro scoprirono il spinacio tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il spinacio brillava come una piccola gemma nascosta tra gli ulivi di Diamante; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il spinacio appena colto e quello del mercato. Il primo profumava di terra e mare di Diamante, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Diamante"
     },
     {
       "id": "bietola_calabria",
@@ -3478,16 +3504,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Rossano, Lina e il folletto Taro scoprirono il bietola tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il bietola brillava come una piccola gemma nascosta tra gli ulivi di Rossano; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il bietola appena colto e quello del mercato. Il primo profumava di terra e mare di Rossano, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Rossano"
     },
     {
       "id": "asparago_calabria",
@@ -3604,16 +3631,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Pizzo Calabro, Lina e il folletto Taro scoprirono il asparago tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il asparago brillava come una piccola gemma nascosta tra gli ulivi di Pizzo Calabro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il asparago appena colto e quello del mercato. Il primo profumava di terra e mare di Pizzo Calabro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Pizzo Calabro"
     },
     {
       "id": "fagiolino_calabria",
@@ -3734,16 +3762,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Pizzo Calabro, Lina e il folletto Taro scoprirono il fagiolino tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il fagiolino brillava come una piccola gemma nascosta tra gli ulivi di Pizzo Calabro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il fagiolino appena colto e quello del mercato. Il primo profumava di terra e mare di Pizzo Calabro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Pizzo Calabro"
     },
     {
       "id": "olive_calabria",
@@ -3868,16 +3897,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Reggio Calabria, Lina e il folletto Taro scoprirono il oliva / olio d'oliva tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il oliva / olio d'oliva brillava come una piccola gemma nascosta tra gli ulivi di Reggio Calabria; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il oliva / olio d'oliva appena colto e quello del mercato. Il primo profumava di terra e mare di Reggio Calabria, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Reggio Calabria"
     },
     {
       "id": "miele_calabria",
@@ -4004,16 +4034,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Tropea, Lina e il folletto Taro scoprirono il miele tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il miele brillava come una piccola gemma nascosta tra gli ulivi di Tropea; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il miele appena colto e quello del mercato. Il primo profumava di terra e mare di Tropea, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Tropea"
     },
     {
       "id": "latte_calabria",
@@ -4136,16 +4167,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Pizzo Calabro, Lina e il folletto Taro scoprirono il latte fresco tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il latte fresco brillava come una piccola gemma nascosta tra gli ulivi di Pizzo Calabro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il latte fresco appena colto e quello del mercato. Il primo profumava di terra e mare di Pizzo Calabro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Pizzo Calabro"
     },
     {
       "id": "ricotta_calabria",
@@ -4269,16 +4301,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Rossano, Lina e il folletto Taro scoprirono il ricotta tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il ricotta brillava come una piccola gemma nascosta tra gli ulivi di Rossano; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il ricotta appena colto e quello del mercato. Il primo profumava di terra e mare di Rossano, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Rossano"
     },
     {
       "id": "uova_calabria",
@@ -4403,16 +4436,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Cosenza, Lina e il folletto Taro scoprirono il uova tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il uova brillava come una piccola gemma nascosta tra gli ulivi di Cosenza; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il uova appena colto e quello del mercato. Il primo profumava di terra e mare di Cosenza, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Cosenza"
     },
     {
       "id": "formaggio_stagionato_calabria",
@@ -4535,16 +4569,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Pizzo Calabro, Lina e il folletto Taro scoprirono il formaggi stagionati tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il formaggi stagionati brillava come una piccola gemma nascosta tra gli ulivi di Pizzo Calabro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il formaggi stagionati appena colto e quello del mercato. Il primo profumava di terra e mare di Pizzo Calabro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Pizzo Calabro"
     },
     {
       "id": "zucca_calabria",
@@ -4661,16 +4696,17 @@
       "_region_hint": "Calabria",
       "story": {
         "it": [
-          "Nella Calabria, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Diamante, Lina e il folletto Taro scoprirono il zucca tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il zucca brillava come una piccola gemma nascosta tra gli ulivi di Diamante; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il zucca appena colto e quello del mercato. Il primo profumava di terra e mare di Diamante, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Calabria, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Diamante"
     },
     {
       "id": "mela_uk",
@@ -4791,16 +4827,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Reggio Calabria, Lina e il folletto Taro scoprirono il mela tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il mela brillava come una piccola gemma nascosta tra gli ulivi di Reggio Calabria; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il mela appena colto e quello del mercato. Il primo profumava di terra e mare di Reggio Calabria, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Reggio Calabria"
     },
     {
       "id": "pera_uk",
@@ -4918,16 +4955,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Reggio Calabria, Lina e il folletto Taro scoprirono il pera tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pera brillava come una piccola gemma nascosta tra gli ulivi di Reggio Calabria; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pera appena colto e quello del mercato. Il primo profumava di terra e mare di Reggio Calabria, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Reggio Calabria"
     },
     {
       "id": "rhubarb_uk",
@@ -5046,16 +5084,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Belvedere Marittimo, Lina e il folletto Taro scoprirono il rabarbaro tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il rabarbaro brillava come una piccola gemma nascosta tra gli ulivi di Belvedere Marittimo; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il rabarbaro appena colto e quello del mercato. Il primo profumava di terra e mare di Belvedere Marittimo, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Belvedere Marittimo"
     },
     {
       "id": "fragola_uk",
@@ -5172,16 +5211,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Bagnara Calabra, Lina e il folletto Taro scoprirono il fragola tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il fragola brillava come una piccola gemma nascosta tra gli ulivi di Bagnara Calabra; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il fragola appena colto e quello del mercato. Il primo profumava di terra e mare di Bagnara Calabra, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Bagnara Calabra"
     },
     {
       "id": "lampone_uk",
@@ -5297,16 +5337,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Scilla, Lina e il folletto Taro scoprirono il lampone tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il lampone brillava come una piccola gemma nascosta tra gli ulivi di Scilla; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il lampone appena colto e quello del mercato. Il primo profumava di terra e mare di Scilla, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Scilla"
     },
     {
       "id": "mirtillo_uk",
@@ -5421,16 +5462,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Sibari, Lina e il folletto Taro scoprirono il mirtillo tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il mirtillo brillava come una piccola gemma nascosta tra gli ulivi di Sibari; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il mirtillo appena colto e quello del mercato. Il primo profumava di terra e mare di Sibari, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Sibari"
     },
     {
       "id": "more_uk",
@@ -5545,16 +5587,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Locri, Lina e il folletto Taro scoprirono il mora tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il mora brillava come una piccola gemma nascosta tra gli ulivi di Locri; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il mora appena colto e quello del mercato. Il primo profumava di terra e mare di Locri, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Locri"
     },
     {
       "id": "cavolo_uk",
@@ -5675,16 +5718,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Amantea, Lina e il folletto Taro scoprirono il cavolo tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il cavolo brillava come una piccola gemma nascosta tra gli ulivi di Amantea; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il cavolo appena colto e quello del mercato. Il primo profumava di terra e mare di Amantea, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Amantea"
     },
     {
       "id": "pastinaca_uk",
@@ -5802,16 +5846,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Rossano, Lina e il folletto Taro scoprirono il pastinaca tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pastinaca brillava come una piccola gemma nascosta tra gli ulivi di Rossano; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pastinaca appena colto e quello del mercato. Il primo profumava di terra e mare di Rossano, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Rossano"
     },
     {
       "id": "carota_uk",
@@ -5934,16 +5979,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Scilla, Lina e il folletto Taro scoprirono il carota tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il carota brillava come una piccola gemma nascosta tra gli ulivi di Scilla; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il carota appena colto e quello del mercato. Il primo profumava di terra e mare di Scilla, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Scilla"
     },
     {
       "id": "patata_uk",
@@ -6068,16 +6114,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Serra San Bruno, Lina e il folletto Taro scoprirono il patata tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il patata brillava come una piccola gemma nascosta tra gli ulivi di Serra San Bruno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il patata appena colto e quello del mercato. Il primo profumava di terra e mare di Serra San Bruno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Serra San Bruno"
     },
     {
       "id": "asparago_uk",
@@ -6192,16 +6239,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Siderno, Lina e il folletto Taro scoprirono il asparago tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il asparago brillava come una piccola gemma nascosta tra gli ulivi di Siderno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il asparago appena colto e quello del mercato. Il primo profumava di terra e mare di Siderno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Siderno"
     },
     {
       "id": "pisello_uk",
@@ -6316,16 +6364,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Siderno, Lina e il folletto Taro scoprirono il pisello tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pisello brillava come una piccola gemma nascosta tra gli ulivi di Siderno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pisello appena colto e quello del mercato. Il primo profumava di terra e mare di Siderno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Siderno"
     },
     {
       "id": "pomodoro_uk",
@@ -6440,16 +6489,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Pizzo Calabro, Lina e il folletto Taro scoprirono il pomodoro tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il pomodoro brillava come una piccola gemma nascosta tra gli ulivi di Pizzo Calabro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il pomodoro appena colto e quello del mercato. Il primo profumava di terra e mare di Pizzo Calabro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Pizzo Calabro"
     },
     {
       "id": "bucaneve_uk",
@@ -6563,16 +6613,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Sibari, Lina e il folletto Taro scoprirono il bucaneve tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il bucaneve brillava come una piccola gemma nascosta tra gli ulivi di Sibari; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il bucaneve appena colto e quello del mercato. Il primo profumava di terra e mare di Sibari, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Sibari"
     },
     {
       "id": "narciso_uk",
@@ -6686,16 +6737,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Polistena, Lina e il folletto Taro scoprirono il narciso tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il narciso brillava come una piccola gemma nascosta tra gli ulivi di Polistena; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il narciso appena colto e quello del mercato. Il primo profumava di terra e mare di Polistena, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Polistena"
     },
     {
       "id": "lavanda_uk",
@@ -6810,16 +6862,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Sibari, Lina e il folletto Taro scoprirono il lavanda tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il lavanda brillava come una piccola gemma nascosta tra gli ulivi di Sibari; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il lavanda appena colto e quello del mercato. Il primo profumava di terra e mare di Sibari, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Sibari"
     },
     {
       "id": "miele_uk",
@@ -6946,16 +6999,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Catanzaro, Lina e il folletto Taro scoprirono il miele tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il miele brillava come una piccola gemma nascosta tra gli ulivi di Catanzaro; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il miele appena colto e quello del mercato. Il primo profumava di terra e mare di Catanzaro, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Catanzaro"
     },
     {
       "id": "latte_uk",
@@ -7078,16 +7132,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Cosenza, Lina e il folletto Taro scoprirono il latte fresco tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il latte fresco brillava come una piccola gemma nascosta tra gli ulivi di Cosenza; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il latte fresco appena colto e quello del mercato. Il primo profumava di terra e mare di Cosenza, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Cosenza"
     },
     {
       "id": "uova_uk",
@@ -7212,16 +7267,17 @@
       "_region_hint": "Bassa Inghilterra",
       "story": {
         "it": [
-          "Nella Bassa Inghilterra, Lina e il folletto Taro scoprono il prodotto vicino a un muretto di pietra; Piuma, il pettirosso, svolazza e li guida tra profumi e suoni del campo, mentre Nonna Rosa racconta come riconoscerne la stagione migliore.",
-          "Al tramonto, prodotto scintilla come una piccola runa antica: i semi e le foglie sussurrano che crescere richiede calma, acqua gentile e luce paziente, e d’un tratto il sentiero sembra una pagina di fiaba che respira.",
-          "Quando arriva il mese giusto, Nonna Rosa mostra a Lina e Taro la differenza tra raccolta e scaffalatura: Prodotto appena colto profuma di sole e terra; quello sugli scaffali conserva un ricordo d’estate per i giorni più freddi."
+          "A Serra San Bruno, Lina e il folletto Taro scoprirono il uova tra i profumi del mercato e il canto delle cicale. Piuma, il pettirosso, li guidava verso il campo mentre Nonna Rosa raccontava come capire il momento giusto per raccoglierlo.",
+          "Al tramonto, il uova brillava come una piccola gemma nascosta tra gli ulivi di Serra San Bruno; le sue foglie sussurravano segreti di sole e vento, e il sentiero profumava di fiaba.",
+          "Quando arrivò il mese perfetto, Nonna Rosa mostrò a Lina e Taro la differenza tra il uova appena colto e quello del mercato. Il primo profumava di terra e mare di Serra San Bruno, il secondo conservava un ricordo d’estate per i giorni d’inverno."
         ],
         "en": [
           "In Bassa Inghilterra, Lina and the sprite Taro discover the product by a stone wall; Piuma the robin flutters ahead, guiding them through scents and field sounds, while Nonna Rosa explains how to tell its best season.",
           "At dusk, the product shimmers like a small ancient rune: seeds and leaves whisper that growing needs calm, kind water and patient light, and suddenly the path feels like a living fairy‑tale page.",
           "When the right month comes, Nonna Rosa shows Lina and Taro the difference between harvest and shelf life: freshly picked product smells of sun and soil; the one on shelves keeps a summer memory for colder days."
         ]
-      }
+      },
+      "local_town": "Serra San Bruno"
     }
   ]
 }
