@@ -31,6 +31,34 @@ function loadImagesFromDisk() {
   }
 }
 
+// File path for progress persistence
+const PROGRESS_FILE = path.join(IMAGES_DIR, 'progress.json');
+
+// Load progress from disk on startup
+function loadProgressFromDisk() {
+  try {
+    if (fs.existsSync(PROGRESS_FILE)) {
+      const data = fs.readFileSync(PROGRESS_FILE, 'utf8');
+      userProgress = JSON.parse(data);
+      console.log(`📋 Loaded progress from disk: ${userProgress.completedQuestIds.length} quests`);
+    } else {
+      console.log(`📋 No progress file found, starting fresh`);
+    }
+  } catch (err) {
+    console.error('Error loading progress:', err);
+  }
+}
+
+// Save progress to disk
+function saveProgressToDisk() {
+  try {
+    fs.writeFileSync(PROGRESS_FILE, JSON.stringify(userProgress, null, 2));
+    console.log(`💾 Progress saved to disk: ${userProgress.completedQuestIds.length} quests`);
+  } catch (err) {
+    console.error('Error saving progress to disk:', err);
+  }
+}
+
 // Middleware
 app.use(cors());
 app.use(express.json({ limit: '50mb' })); // Allow large base64 images
@@ -136,16 +164,27 @@ let userProgress = {
 // GET: Retrieve user progress
 app.get('/api/progress', (req, res) => {
   console.log(`📊 Retrieved progress: ${userProgress.completedQuestIds.length} quests completed`);
-  res.json(userProgress);
+  // Convert to snake_case for Dart client compatibility
+  res.json({
+    completed_quest_ids: userProgress.completedQuestIds,
+    visited_location_ids: userProgress.visitedLocationIds,
+    unlocked_badges: userProgress.unlockedBadges,
+    last_updated: userProgress.lastUpdated,
+  });
 });
 
 // POST: Save user progress
 app.post('/api/progress', (req, res) => {
   try {
     console.log(`📥 POST /api/progress - Body:`, req.body);
-    const { completedQuestIds, visitedLocationIds, unlockedBadges, lastUpdated } = req.body;
     
-    if (!completedQuestIds || !Array.isArray(completedQuestIds)) {
+    // Handle both snake_case (from Dart) and camelCase
+    const completedQuestIds = req.body.completed_quest_ids || req.body.completedQuestIds || [];
+    const visitedLocationIds = req.body.visited_location_ids || req.body.visitedLocationIds || [];
+    const unlockedBadges = req.body.unlocked_badges || req.body.unlockedBadges || [];
+    const lastUpdated = req.body.last_updated || req.body.lastUpdated || new Date().toISOString();
+    
+    if (!Array.isArray(completedQuestIds)) {
       console.log(`❌ Invalid completedQuestIds:`, completedQuestIds);
       return res.status(400).json({ error: 'Missing or invalid completed_quest_ids' });
     }
@@ -156,6 +195,9 @@ app.post('/api/progress', (req, res) => {
       unlockedBadges: unlockedBadges || [],
       lastUpdated: lastUpdated || new Date().toISOString(),
     };
+    
+    // Save to disk for persistence
+    saveProgressToDisk();
     
     console.log(`💾 Saved progress: ${completedQuestIds.length} quests completed`);
     res.json({ success: true, progress: userProgress });
@@ -174,6 +216,11 @@ app.delete('/api/progress', (req, res) => {
     lastUpdated: new Date().toISOString(),
   };
   
+  // Delete from disk
+  if (fs.existsSync(PROGRESS_FILE)) {
+    fs.unlinkSync(PROGRESS_FILE);
+  }
+  
   console.log(`🗑️ Cleared all progress`);
   res.json({ success: true, progress: userProgress });
 });
@@ -184,4 +231,5 @@ app.listen(PORT, () => {
   console.log(`📁 Image directory: ${IMAGES_DIR}`);
   console.log(`📊 User Progress endpoints available`);
   loadImagesFromDisk();
+  loadProgressFromDisk();
 });
