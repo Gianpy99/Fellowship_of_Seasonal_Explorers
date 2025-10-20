@@ -340,61 +340,25 @@ class _HomeScreenState extends State<HomeScreen> {
 
   /// Generate sample badges for demonstration
   List<badge_model.Badge> _generateBadges() {
-    final completedCount = _userProgress.completedQuestIds.length;
-    
-    return [
-      badge_model.Badge(
-        id: 'first-quest',
-        name: 'First Quest',
-        description: 'Complete your first seasonal quest',
-        icon: '🌟',
-        type: badge_model.BadgeType.collector,
-        requirementCount: 1,
-        isUnlocked: completedCount >= 1,
-        unlockedAt: completedCount >= 1 ? DateTime.now().subtract(Duration(days: 5)) : null,
-      ),
-      badge_model.Badge(
-        id: 'collector',
-        name: 'Collector',
-        description: 'Complete 5 seasonal quests',
-        icon: '📚',
-        type: badge_model.BadgeType.collector,
-        requirementCount: 5,
-        isUnlocked: completedCount >= 5,
-        unlockedAt: completedCount >= 5 ? DateTime.now().subtract(Duration(days: 2)) : null,
-      ),
-      badge_model.Badge(
-        id: 'explorer',
-        name: 'Explorer',
-        description: 'Complete 10 seasonal quests',
-        icon: '🗺️',
-        type: badge_model.BadgeType.explorer,
-        requirementCount: 10,
-        isUnlocked: completedCount >= 10,
-        unlockedAt: completedCount >= 10 ? DateTime.now() : null,
-      ),
-      badge_model.Badge(
-        id: 'master',
-        name: 'Master',
-        description: 'Complete all quests',
-        icon: '👑',
-        type: badge_model.BadgeType.master,
-        requirementCount: _quests.length,
-        isUnlocked: completedCount >= _quests.length,
-        unlockedAt: completedCount >= _quests.length ? DateTime.now() : null,
-      ),
-    ];
+    // Use predefined badges from model
+    return badge_model.Badges.all;
   }
 
   /// Generate progress map for badges
   Map<String, int> _generateProgressMap() {
     final completedCount = _userProgress.completedQuestIds.length;
+    final fruitCount = _quests.where((q) => q.category == 'FRUIT').length;
+    final vegCount = _quests.where((q) => q.category == 'VEGETABLE').length;
     
     return {
-      'first-quest': completedCount,
-      'collector': completedCount,
-      'explorer': completedCount,
-      'master': completedCount,
+      'spring_explorer': completedCount,
+      'summer_explorer': completedCount,
+      'autumn_explorer': completedCount,
+      'winter_explorer': completedCount,
+      'fruit_collector': fruitCount > 0 ? completedCount ~/ (fruitCount > 0 ? fruitCount : 1) : 0,
+      'vegetable_collector': vegCount > 0 ? completedCount ~/ (vegCount > 0 ? vegCount : 1) : 0,
+      'market_explorer': completedCount,
+      'seasonal_master': completedCount,
     };
   }
 }
