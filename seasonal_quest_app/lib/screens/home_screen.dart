@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import '../models/quest.dart';
 import '../models/user_progress.dart';
+import '../models/badge.dart' as badge_model;
 import '../services/quest_service.dart';
 import '../widgets/quest_card.dart';
+import '../widgets/badge_widget.dart';
 import 'quest_detail_screen.dart';
 
 /// Main home screen with Google Maps and quest list
@@ -189,7 +191,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                 ),
-                // Badge showcase (coming soon)
+                // Badge showcase
+                BadgeShowcase(
+                  badges: _generateBadges(),
+                  progressMap: _generateProgressMap(),
+                ),
               ],
             ),
           ),
@@ -331,4 +337,65 @@ class _HomeScreenState extends State<HomeScreen> {
       ],
     );
   }
+
+  /// Generate sample badges for demonstration
+  List<badge_model.Badge> _generateBadges() {
+    final completedCount = _userProgress.completedQuestIds.length;
+    
+    return [
+      badge_model.Badge(
+        id: 'first-quest',
+        name: 'First Quest',
+        description: 'Complete your first seasonal quest',
+        icon: '🌟',
+        type: badge_model.BadgeType.collector,
+        requirementCount: 1,
+        isUnlocked: completedCount >= 1,
+        unlockedAt: completedCount >= 1 ? DateTime.now().subtract(Duration(days: 5)) : null,
+      ),
+      badge_model.Badge(
+        id: 'collector',
+        name: 'Collector',
+        description: 'Complete 5 seasonal quests',
+        icon: '📚',
+        type: badge_model.BadgeType.collector,
+        requirementCount: 5,
+        isUnlocked: completedCount >= 5,
+        unlockedAt: completedCount >= 5 ? DateTime.now().subtract(Duration(days: 2)) : null,
+      ),
+      badge_model.Badge(
+        id: 'explorer',
+        name: 'Explorer',
+        description: 'Complete 10 seasonal quests',
+        icon: '🗺️',
+        type: badge_model.BadgeType.explorer,
+        requirementCount: 10,
+        isUnlocked: completedCount >= 10,
+        unlockedAt: completedCount >= 10 ? DateTime.now() : null,
+      ),
+      badge_model.Badge(
+        id: 'master',
+        name: 'Master',
+        description: 'Complete all quests',
+        icon: '👑',
+        type: badge_model.BadgeType.master,
+        requirementCount: _quests.length,
+        isUnlocked: completedCount >= _quests.length,
+        unlockedAt: completedCount >= _quests.length ? DateTime.now() : null,
+      ),
+    ];
+  }
+
+  /// Generate progress map for badges
+  Map<String, int> _generateProgressMap() {
+    final completedCount = _userProgress.completedQuestIds.length;
+    
+    return {
+      'first-quest': completedCount,
+      'collector': completedCount,
+      'explorer': completedCount,
+      'master': completedCount,
+    };
+  }
 }
+
