@@ -20,18 +20,19 @@ class BadgeWidget extends StatelessWidget {
 
     return Card(
       elevation: badge.isUnlocked ? 6 : 2,
-      margin: EdgeInsets.all(8),
+      margin: EdgeInsets.all(6),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(12),
       ),
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(12),
         child: Container(
-          width: 140,
-          padding: EdgeInsets.all(16),
+          width: 120,
+          padding: EdgeInsets.all(12),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
             children: [
               // Badge Icon
               Stack(
@@ -39,11 +40,11 @@ class BadgeWidget extends StatelessWidget {
                 children: [
                   // Background circle with progress
                   SizedBox(
-                    width: 70,
-                    height: 70,
+                    width: 60,
+                    height: 60,
                     child: CircularProgressIndicator(
                       value: progressPercentage,
-                      strokeWidth: 4,
+                      strokeWidth: 3,
                       backgroundColor: Colors.grey.shade200,
                       valueColor: AlwaysStoppedAnimation<Color>(
                         badge.isUnlocked ? Colors.amber : Colors.blue,
@@ -52,8 +53,8 @@ class BadgeWidget extends StatelessWidget {
                   ),
                   // Icon/Emoji
                   Container(
-                    width: 60,
-                    height: 60,
+                    width: 50,
+                    height: 50,
                     decoration: BoxDecoration(
                       color: badge.isUnlocked
                           ? Colors.amber.shade50
@@ -64,7 +65,7 @@ class BadgeWidget extends StatelessWidget {
                       child: Text(
                         badge.icon,
                         style: TextStyle(
-                          fontSize: 32,
+                          fontSize: 28,
                           color: badge.isUnlocked ? null : Colors.grey,
                         ),
                       ),
@@ -76,8 +77,8 @@ class BadgeWidget extends StatelessWidget {
                       bottom: 0,
                       right: 0,
                       child: Container(
-                        width: 24,
-                        height: 24,
+                        width: 20,
+                        height: 20,
                         decoration: BoxDecoration(
                           color: Colors.green,
                           shape: BoxShape.circle,
@@ -85,28 +86,28 @@ class BadgeWidget extends StatelessWidget {
                         ),
                         child: Icon(
                           Icons.check,
-                          size: 14,
+                          size: 12,
                           color: Colors.white,
                         ),
                       ),
                     ),
                 ],
               ),
-              SizedBox(height: 12),
+              SizedBox(height: 8),
 
               // Badge Name
               Text(
                 badge.name,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 13,
+                  fontSize: 12,
                   fontWeight: FontWeight.bold,
                   color: badge.isUnlocked ? Colors.black : Colors.grey,
                 ),
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
               ),
-              SizedBox(height: 4),
+              SizedBox(height: 2),
 
               // Progress Text
               Text(
@@ -114,7 +115,7 @@ class BadgeWidget extends StatelessWidget {
                     ? 'Unlocked!'
                     : '$currentProgress/${badge.requirementCount}',
                 style: TextStyle(
-                  fontSize: 11,
+                  fontSize: 10,
                   color: badge.isUnlocked ? Colors.green : Colors.grey.shade600,
                 ),
               ),
