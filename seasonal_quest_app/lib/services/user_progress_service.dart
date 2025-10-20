@@ -10,9 +10,13 @@ class UserProgressService {
   /// Load user progress from server
   static Future<UserProgress> loadUserProgress() async {
     try {
+      print('🔄 Loading progress from server: $_serverUrl');
       final response = await http
           .get(Uri.parse(_serverUrl))
           .timeout(Duration(seconds: int.parse(_timeout)));
+      
+      print('📨 Server response code: ${response.statusCode}');
+      print('📨 Server response body: ${response.body}');
       
       if (response.statusCode == 200) {
         final json = jsonDecode(response.body) as Map<String, dynamic>;
@@ -32,13 +36,18 @@ class UserProgressService {
   /// Save user progress to server
   static Future<bool> saveUserProgress(UserProgress progress) async {
     try {
+      final payload = progress.toJson();
+      print('📤 Sending progress to server: $payload');
+      
       final response = await http
           .post(
             Uri.parse(_serverUrl),
             headers: {'Content-Type': 'application/json'},
-            body: jsonEncode(progress.toJson()),
+            body: jsonEncode(payload),
           )
           .timeout(Duration(seconds: int.parse(_timeout)));
+      
+      print('📨 Server response: ${response.statusCode} - ${response.body}');
       
       if (response.statusCode == 200) {
         print('💾 Saved progress to server: ${progress.completedQuestIds.length} quests');

@@ -77,8 +77,8 @@ Warm kitchen atmosphere
 3. **.gitignore**: Blocks both `api_keys.dart` and `web/index.html`
 
 ### Current Keys (SECURED)
-- **Gemini API**: `AIzaSyCMRreLuaxV5Lb7_zyeIucH903-_DJGA1A` (in api_keys.dart, NOT in Git)
-- **Google Maps API**: `AIzaSyDpRmb5BLzeTXyHEFexw_GIXDbsYjAu86Q` (in web/index.html, NOT in Git)
+- **Gemini API**: `**********************` (in api_keys.dart, NOT in Git)
+- **Google Maps API**: `***********` (in web/index.html, NOT in Git)
 
 ## 📁 File Structure
 

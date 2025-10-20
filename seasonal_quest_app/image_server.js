@@ -142,10 +142,12 @@ app.get('/api/progress', (req, res) => {
 // POST: Save user progress
 app.post('/api/progress', (req, res) => {
   try {
+    console.log(`📥 POST /api/progress - Body:`, req.body);
     const { completedQuestIds, visitedLocationIds, unlockedBadges, lastUpdated } = req.body;
     
-    if (!completedQuestIds) {
-      return res.status(400).json({ error: 'Missing completed_quest_ids' });
+    if (!completedQuestIds || !Array.isArray(completedQuestIds)) {
+      console.log(`❌ Invalid completedQuestIds:`, completedQuestIds);
+      return res.status(400).json({ error: 'Missing or invalid completed_quest_ids' });
     }
     
     userProgress = {
