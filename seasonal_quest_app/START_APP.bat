@@ -25,13 +25,12 @@ if %ERRORLEVEL% == 0 (
 )
 
 echo.
-echo [+] Starting Flutter App (Release Mode - OPTIMIZED)...
-echo [*] Compilation time: ~25s (normal for Flutter Web)
-echo [*] Use 'r' for hot reload, 'd' to detach
+echo [+] Starting Flutter App (Debug Mode)...
+echo [*] Use 'r' for hot reload, 'R' for hot restart, 'd' to detach
 echo.
 
-REM Use release mode for faster subsequent builds + smaller app
-"C:\Users\gianp\OneDrive\Documents\flutter\bin\flutter.bat" run -d chrome --release
+REM Use debug mode - ensures server_images are accessible
+"C:\Users\gianp\OneDrive\Documents\flutter\bin\flutter.bat" run -d chrome
 
 echo.
 echo ========================================
