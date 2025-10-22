@@ -31,19 +31,15 @@ class _QuestCardState extends State<QuestCard> {
 
   Future<void> _loadCachedImage() async {
     final cacheKey = SimpleImageService.cacheKey(widget.quest.id, 'icon');
-    print('🔍 [${widget.quest.nameIt}] Checking cache for key: $cacheKey');
     
     // Check if cached (memory or SharedPreferences)
     final hasCache = await SimpleImageService.hasCachedImage(cacheKey);
-    print('   Has cached image: $hasCache');
     
     if (hasCache) {
       // Get from cache
       final image = await SimpleImageService.getImageFromCache(cacheKey);
-      print('   Got image bytes: ${image != null ? "${image.length} bytes" : "null"}');
       
       if (image != null && mounted) {
-        print('   ✅ Setting cached image for ${widget.quest.nameIt}');
         setState(() => _cachedImage = image);
       }
     }

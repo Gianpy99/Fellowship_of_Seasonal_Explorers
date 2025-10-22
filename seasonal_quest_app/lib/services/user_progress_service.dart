@@ -10,25 +10,18 @@ class UserProgressService {
   /// Load user progress from server
   static Future<UserProgress> loadUserProgress() async {
     try {
-      print('🔄 Loading progress from server: $_serverUrl');
       final response = await http
           .get(Uri.parse(_serverUrl))
           .timeout(Duration(seconds: int.parse(_timeout)));
       
-      print('📨 Server response code: ${response.statusCode}');
-      print('📨 Server response body: ${response.body}');
-      
       if (response.statusCode == 200) {
         final json = jsonDecode(response.body) as Map<String, dynamic>;
         final progress = UserProgress.fromJson(json);
-        print('✅ Loaded progress from server: ${progress.completedQuestIds.length} quests');
         return progress;
       } else {
-        print('⚠️ Server error loading progress: ${response.statusCode}');
         return UserProgress.empty();
       }
     } catch (e) {
-      print('⚠️ Error loading progress from server: $e');
       return UserProgress.empty();
     }
   }
@@ -37,7 +30,6 @@ class UserProgressService {
   static Future<bool> saveUserProgress(UserProgress progress) async {
     try {
       final payload = progress.toJson();
-      print('📤 Sending progress to server: $payload');
       
       final response = await http
           .post(
@@ -47,17 +39,12 @@ class UserProgressService {
           )
           .timeout(Duration(seconds: int.parse(_timeout)));
       
-      print('📨 Server response: ${response.statusCode} - ${response.body}');
-      
       if (response.statusCode == 200) {
-        print('💾 Saved progress to server: ${progress.completedQuestIds.length} quests');
         return true;
       } else {
-        print('❌ Server error saving progress: ${response.statusCode}');
         return false;
       }
     } catch (e) {
-      print('❌ Error saving progress to server: $e');
       return false;
     }
   }
@@ -90,12 +77,10 @@ class UserProgressService {
           .timeout(Duration(seconds: int.parse(_timeout)));
       
       if (response.statusCode == 200) {
-        print('🗑️ Cleared all progress on server');
         return true;
       }
       return false;
     } catch (e) {
-      print('❌ Error clearing progress: $e');
       return false;
     }
   }

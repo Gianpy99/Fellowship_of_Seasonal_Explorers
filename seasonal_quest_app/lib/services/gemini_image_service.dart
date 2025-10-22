@@ -68,7 +68,7 @@ Beautiful whimsical illustration in Studio Ghibli style, Disney magic, and Tolki
 Scene depicting: $story
 Main focus on ${quest.nameIt} (${quest.nameEn}).
 Art style: watercolor texture, pastel colors, warm and inviting.
-Setting: ${variation}
+Setting: $variation
 Include characters Lina (curious Calabrian girl) and Taro (traveling elf) if mentioned in the story.
 Child-friendly, educational, storybook quality.
 ''';
@@ -89,14 +89,10 @@ Educational illustration for children learning about seasonal food.
   /// Core method to call Gemini API and generate image
   static Future<String?> _generateImage(String prompt) async {
     if (!ApiKeys.isConfigured) {
-      print('❌ API keys not configured');
       return null;
     }
     
     try {
-      print('🎨 Generating image with Gemini 2.5 Flash Image...');
-      print('📝 Prompt: ${prompt.substring(0, 100)}...');
-      
       final response = await http.post(
         Uri.parse('$_apiUrl?key=${ApiKeys.geminiApiKey}'),
         headers: {'Content-Type': 'application/json'},
@@ -116,7 +112,6 @@ Educational illustration for children learning about seasonal food.
       
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
-        print('📦 Response received, parsing...');
         
         // Extract image data from Gemini response
         // Gemini 2.5 Flash Image returns: {"candidates": [{"content": {"parts": [{"inlineData": {"mimeType": "image/png", "data": "..."}}]}}]}
@@ -129,22 +124,16 @@ Educational illustration for children learning about seasonal food.
             final imageData = inlineData?['data'] as String?;
             
             if (imageData != null && imageData.isNotEmpty) {
-              print('✅ Image generated successfully!');
               return imageData;
             }
           }
         }
         
-        print('⚠️ No image data found in response');
-        print('Response structure: ${data.keys}');
         return null;
       } else {
-        print('❌ Imagen API error: ${response.statusCode}');
-        print('Response: ${response.body}');
         return null;
       }
     } catch (e) {
-      print('❌ Error generating image: $e');
       return null;
     }
   }
@@ -161,6 +150,6 @@ Educational illustration for children learning about seasonal food.
   static String generateFilename(Quest quest, String type, {int? variation}) {
     final productName = quest.nameEn.toLowerCase().replaceAll(' ', '_');
     final suffix = variation != null ? '_$variation' : '';
-    return '${productName}_${type}${suffix}.png';
+    return '${productName}_$type$suffix.png';
   }
 }

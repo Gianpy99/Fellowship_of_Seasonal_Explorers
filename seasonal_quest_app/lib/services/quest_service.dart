@@ -26,7 +26,7 @@ class QuestService {
         final quest = _parseQuest(productJson as Map<String, dynamic>);
         quests.add(quest);
       } catch (e) {
-        print('Error parsing quest: ${productJson['id']} - $e');
+        // Error parsing quest
       }
     }
     

@@ -49,12 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _userProgress = progress;
         _isLoading = false;
       });
-      
-      print('✅ Loaded ${quests.length} quests from JSON');
-      print('📊 Statistics: $stats');
-      print('💾 Loaded progress: ${UserProgressService.getStats(progress)}');
     } catch (e) {
-      print('❌ Error loading quests: $e');
       setState(() => _isLoading = false);
     }
   }
@@ -107,7 +102,6 @@ class _HomeScreenState extends State<HomeScreen> {
             setState(() {
               _userProgress = updated;
             });
-            print('💾 Quest progress saved: ${quest.nameIt}');
           },
         ),
       ),

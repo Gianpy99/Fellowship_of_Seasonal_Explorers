@@ -8,8 +8,6 @@ class ImageServerService {
   /// Save image to server
   static Future<bool> saveImage(String key, String base64Data) async {
     try {
-      print('📤 Uploading to server: $key');
-      
       final response = await http.post(
         Uri.parse('$_baseUrl/$key'),
         headers: {'Content-Type': 'application/json'},
@@ -17,14 +15,11 @@ class ImageServerService {
       ).timeout(const Duration(seconds: 30));
       
       if (response.statusCode == 200) {
-        print('   ✅ Saved on server');
         return true;
       } else {
-        print('   ❌ Server error: ${response.statusCode}');
         return false;
       }
     } catch (e) {
-      print('   ⚠️ Upload error: $e');
       return false;
     }
   }
@@ -38,17 +33,13 @@ class ImageServerService {
       
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
-        print('   ✅ Retrieved from server');
         return data['data'];
       } else if (response.statusCode == 404) {
-        print('   ℹ️ Not on server');
         return null;
       } else {
-        print('   ❌ Server error: ${response.statusCode}');
         return null;
       }
     } catch (e) {
-      print('   ⚠️ Retrieve error: $e');
       return null;
     }
   }
@@ -77,7 +68,7 @@ class ImageServerService {
         return jsonDecode(response.body);
       }
     } catch (e) {
-      print('⚠️ Stats error: $e');
+      // Stats error
     }
     return null;
   }
@@ -91,7 +82,6 @@ class ImageServerService {
       
       return response.statusCode == 200;
     } catch (e) {
-      print('⚠️ Delete error: $e');
       return false;
     }
   }
@@ -105,7 +95,6 @@ class ImageServerService {
       
       return response.statusCode == 200;
     } catch (e) {
-      print('⚠️ Clear error: $e');
       return false;
     }
   }

@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'dart:html' as html;
-import 'dart:typed_data';
+import 'dart:html' as html; // ignore: deprecated_member_use, avoid_web_libraries_in_flutter
+import 'package:flutter/services.dart';
 import 'image_server_service.dart';
 
 /// Image service: Memory cache + IndexedDB (persistent!) + automatic download
@@ -11,19 +11,14 @@ class SimpleImageService {
   /// Save image: Memory cache + IndexedDB + automatic download
   static Future<void> saveImage(String key, String base64Data, String filename) async {
     try {
-      print('📝 [saveImage] START: key=$key, filename=$filename, base64 length=${base64Data.length}');
-      
       // 1. Decode to bytes
       final bytes = base64Decode(base64Data);
-      print('   ✅ Decoded base64 to bytes: ${bytes.length} bytes');
       
       // 2. Save to memory cache (instant display)
       _memoryCache[key] = bytes;
-      print('   💾 Saved to memory cache: $key');
       
       // 3. Save to server (PERSISTS between flutter run!)
       await ImageServerService.saveImage(key, base64Data);
-      print('   💾 Saved to server');
       
       // 4. Automatic download
       final blob = html.Blob([bytes], 'image/png');
@@ -36,20 +31,15 @@ class SimpleImageService {
       anchor.click();
       anchor.remove();
       html.Url.revokeObjectUrl(url);
-      
-      print('   📥 Auto-downloaded: $filename');
     } catch (e) {
-      print('❌ Error saving image: $e');
+      // Error saving image
     }
   }
   
   /// Get image from memory cache OR IndexedDB
   static Future<Uint8List?> getImageFromCache(String key) async {
-    print('🔍 [getImageFromCache] key=$key');
-    
     // Try memory first (fastest)
     if (_memoryCache.containsKey(key)) {
-      print('   ✅ Found in memory cache');
       return _memoryCache[key];
     }
     
@@ -57,38 +47,26 @@ class SimpleImageService {
     try {
       final base64Data = await ImageServerService.getImage(key);
       if (base64Data != null && base64Data.isNotEmpty) {
-        print('   ✅ Found on server');
         final bytes = base64Decode(base64Data);
         _memoryCache[key] = bytes; // Cache for next access
         return bytes;
       }
     } catch (e) {
-      print('   ⚠️ Server read error: $e');
+      // Server read error
     }
     
-    print('   ❌ Not found in any storage');
     return null;
   }
   
   /// Check if image exists in cache (memory OR IndexedDB)
   static Future<bool> hasCachedImage(String key) async {
-    print('   📋 [hasCachedImage] Checking key=$key');
-    
     if (_memoryCache.containsKey(key)) {
-      print('      ✅ Found in memory cache');
       return true;
     }
     
     try {
-      final exists = await ImageServerService.hasImage(key);
-      if (exists) {
-        print('      ✅ Found on server');
-      } else {
-        print('      ❌ NOT found on server');
-      }
-      return exists;
+      return await ImageServerService.hasImage(key);
     } catch (e) {
-      print('      ⚠️ Error checking server: $e');
       return false;
     }
   }
@@ -96,13 +74,11 @@ class SimpleImageService {
   /// Clear memory cache
   static void clearMemoryCache() {
     _memoryCache.clear();
-    print('🗑️ Memory cache cleared');
   }
   
   /// Clear server storage
   static Future<void> clearServer() async {
     await ImageServerService.clearAll();
-    print('🗑️ Server storage cleared');
   }
   
   /// Clear all caches

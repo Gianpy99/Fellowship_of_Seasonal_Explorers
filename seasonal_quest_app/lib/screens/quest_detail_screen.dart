@@ -1,6 +1,5 @@
-import 'dart:html' as html;
 import 'dart:convert';
-import 'dart:typed_data';
+import 'dart:html' as html; // ignore: deprecated_member_use, avoid_web_libraries_in_flutter
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../models/quest.dart';
@@ -30,7 +29,7 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
   
   // Cached generated images (loaded from IndexedDB)
   Uint8List? _cachedIconImage;
-  Map<int, Uint8List> _cachedStoryImages = {};
+  final Map<int, Uint8List> _cachedStoryImages = {};
   
   @override
   void initState() {
@@ -62,11 +61,10 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
       if (imageBytes != null && mounted) {
         // Cache it locally so we don't refetch
         setState(() => _cachedStoryImages[storyIndex] = imageBytes);
-        print('🌐 Loaded story $storyIndex from server (via FutureBuilder)');
         return imageBytes;
       }
     } catch (e) {
-      print('⚠️ Error loading story $storyIndex from server: $e');
+      // Error loading from server
     }
     return null;
   }
@@ -106,7 +104,7 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
                 onTap: () => Navigator.pop(context),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.9),
+                    color: Colors.white.withValues(alpha: 0.9),
                     shape: BoxShape.circle,
                   ),
                   padding: EdgeInsets.all(8),
@@ -162,11 +160,10 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
         final bytes = base64Decode(widget.quest.cachedIconBase64!);
         if (mounted) {
           setState(() => _cachedIconImage = bytes);
-          print('� Loaded icon from JSON: ${widget.quest.nameIt}');
           return; // Found it!
         }
       } catch (e) {
-        print('⚠️ Error decoding icon from JSON: $e');
+        // Error decoding icon from JSON
       }
     }
     
@@ -176,11 +173,10 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
       final data = await rootBundle.load(iconPath);
       if (mounted) {
         setState(() => _cachedIconImage = data.buffer.asUint8List());
-        print('📂 Loaded icon from assets: ${widget.quest.nameIt}');
         return; // Found it!
       }
     } catch (e) {
-      print('ℹ️ No icon in assets for ${widget.quest.nameIt}');
+      // No icon in assets
     }
     
     // 3. Try loading icon from server (persists across flutter run instances!)
@@ -190,12 +186,11 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
       if (imageBytes != null) {
         if (mounted) {
           setState(() => _cachedIconImage = imageBytes);
-          print('🌐 Loaded icon from server: ${widget.quest.nameIt}');
           return; // Found it!
         }
       }
     } catch (e) {
-      print('⚠️ Error loading icon from server: $e');
+      // Error loading icon from server
     }
     
     // 4. Load story images from JSON (persistent!)
@@ -205,10 +200,9 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
           final bytes = base64Decode(widget.quest.cachedStoryBase64![i]);
           if (mounted) {
             setState(() => _cachedStoryImages[i] = bytes);
-            print('✅ Loaded story $i from JSON: ${widget.quest.nameIt}');
           }
         } catch (e) {
-          print('⚠️ Error decoding story $i from JSON: $e');
+          // Error decoding story from JSON
         }
       }
     }
@@ -228,11 +222,10 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
         if (imageBytes != null) {
           if (mounted) {
             setState(() => _cachedStoryImages[i] = imageBytes);
-            print('🌐 Loaded story $i from server: ${widget.quest.nameIt}');
           }
         }
       } catch (e) {
-        print('⚠️ Error loading story $i from server: $e');
+        // Error loading story from server
       }
     }
   }
@@ -415,34 +408,38 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
     
     if (customPrompt == null) return; // User cancelled
     
+    if (!mounted) return; // Ensure widget is still mounted after async op
+    
     setState(() => _isGeneratingImage = true);
     
     try {
       // Show loading dialog
-      showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (context) => AlertDialog(
-          title: Row(
-            children: [
-              CircularProgressIndicator(),
-              SizedBox(width: 16),
-              Text('Generating Icon...'),
-            ],
+      if (mounted) {
+        showDialog(
+          context: context,
+          barrierDismissible: false,
+          builder: (context) => AlertDialog(
+            title: Row(
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(width: 16),
+                Text('Generating Icon...'),
+              ],
+            ),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('🎨 Using Imagen 3 (Google AI)'),
+                SizedBox(height: 8),
+                Text('🍎 Product: ${widget.quest.nameIt}'),
+                SizedBox(height: 8),
+                Text('⏳ Creating centered icon illustration...'),
+              ],
+            ),
           ),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text('🎨 Using Imagen 3 (Google AI)'),
-              SizedBox(height: 8),
-              Text('🍎 Product: ${widget.quest.nameIt}'),
-              SizedBox(height: 8),
-              Text('⏳ Creating centered icon illustration...'),
-            ],
-          ),
-        ),
-      );
+        );
+      }
       
       // Generate icon image
       final imageData = await GeminiImageService.generateIconImage(
@@ -512,31 +509,35 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
         return; // User cancelled
       }
       
+      if (!mounted) return; // Ensure widget is still mounted after async op
+      
       // Show loading dialog
-      showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (context) => AlertDialog(
-          title: Row(
-            children: [
-              CircularProgressIndicator(),
-              SizedBox(width: 16),
-              Text('Generating AI Image...'),
-            ],
+      if (mounted) {
+        showDialog(
+          context: context,
+          barrierDismissible: false,
+          builder: (context) => AlertDialog(
+            title: Row(
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(width: 16),
+                Text('Generating AI Image...'),
+              ],
+            ),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('🎨 Using Gemini 2.5 Flash Image'),
+                SizedBox(height: 8),
+                Text('📖 Story: ${widget.quest.storyIt[_currentStoryIndex].substring(0, 50)}...'),
+                SizedBox(height: 8),
+                Text('⏳ This may take 10-30 seconds...'),
+              ],
+            ),
           ),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text('🎨 Using Gemini 2.5 Flash Image'),
-              SizedBox(height: 8),
-              Text('📖 Story: ${widget.quest.storyIt[_currentStoryIndex].substring(0, 50)}...'),
-              SizedBox(height: 8),
-              Text('⏳ This may take 10-30 seconds...'),
-            ],
-          ),
-        ),
-      );
+        );
+      }
       
       // Generate image using custom prompt
       final imageData = await GeminiImageService.generateStoryImage(
@@ -614,7 +615,7 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
             Expanded(child: Text(title)),
           ],
         ),
-        content: Container(
+        content: SizedBox(
           width: 600,
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -711,7 +712,6 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
               // Save quest completion to SharedPreferences
               // Note: We need to get current progress from parent
               // For now, just save and call callback
-              print('✅ Quest marked as complete: ${widget.quest.id}');
               widget.onComplete();
               Navigator.of(context).pop();
               Navigator.of(context).pop(); // Back to home screen
@@ -804,7 +804,7 @@ class _QuestDetailScreenState extends State<QuestDetailScreen> {
                       ),
                       Spacer(),
                       Text(
-                        '${widget.quest.nameEn}',
+                        widget.quest.nameEn,
                         style: TextStyle(
                           fontSize: 14,
                           color: Colors.grey.shade600,
