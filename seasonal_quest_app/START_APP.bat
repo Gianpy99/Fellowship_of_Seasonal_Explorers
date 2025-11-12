@@ -26,17 +26,18 @@ if %ERRORLEVEL% == 0 (
 
 echo.
 echo [+] Starting Flutter App (Debug Mode)...
-echo [*] Use 'r' for hot reload, 'R' for hot restart, 'd' to detach
+echo [*] Browser will open automatically
+echo [*] Use 'r' for hot reload, 'R' for hot restart
 echo.
 
-REM Use debug mode - ensures server_images are accessible
+REM Use debug mode - Flutter opens browser automatically
 "C:\Users\gianp\OneDrive\Documents\flutter\bin\flutter.bat" run -d chrome
 
 echo.
 echo ========================================
 echo [✓] App closed
 echo [*] Server still running at http://localhost:3000
-echo [*] To restart app: press UP arrow + ENTER
+echo [*] To restart app: run this script again
 echo ========================================
 
 pause
