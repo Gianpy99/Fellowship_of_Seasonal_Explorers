@@ -1,0 +1,17 @@
+# Local production-like run: docker compose up --build  ->  http://localhost:8096
+# Caddy is not in front of it locally, so APP_ENV stays "development" to use DEV_USER.
+services:
+  seasonal-quest:
+    build: .
+    image: seasonal-quest:local
+    ports:
+      - "127.0.0.1:8096:8080"
+    environment:
+      APP_ENV: development
+      DEV_USER: dev
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    volumes:
+      - seasonal-quest-data:/app/data
+
+volumes:
+  seasonal-quest-data:

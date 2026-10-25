@@ -1,1 +1,8 @@
+node_modules/
+dist/
+.data/
+.env
+.env.*
+!.env.example
+*.log
 seasonal_quest_app/node_modules/

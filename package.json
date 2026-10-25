@@ -1,0 +1,36 @@
+{
+  "name": "seasonal-quest",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Fellowship of Seasonal Explorers: seasonal food quests for kids, with AI illustrations, quizzes and a kid-safe chat.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test \"server/test/*.test.js\"",
+    "catalog": "node scripts/build-catalog.mjs",
+    "clean-content": "node --env-file-if-exists=.env scripts/clean-content.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "compression": "^1.8.2",
+    "express": "^5.3.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/leaflet": "^1.9.22",
+    "leaflet": "^1.9.4",
+    "preact": "^11.0.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

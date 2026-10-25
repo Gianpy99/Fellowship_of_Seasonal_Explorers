@@ -1,0 +1,16 @@
+.git
+.github
+.specify
+.vscode
+.data
+.env
+.env.*
+!.env.example
+node_modules
+dist
+seasonal_quest_app
+specs
+*.log
+Dockerfile
+Jenkinsfile
+docker-compose.yml
