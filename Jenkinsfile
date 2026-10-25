@@ -4,6 +4,10 @@
 // Flow: tests -> docker build -> replace container -> health check
 //       -> automatic rollback to the previous image if the health check fails.
 // =============================================================================
+// AI provider used by automatic deploys: 'gemini' or 'openai'.
+// The key comes from the Jenkins credential seasonal-quest-<provider>-api-key.
+DEFAULT_AI_PROVIDER = 'gemini'
+
 pipeline {
     agent any
 
@@ -28,6 +32,12 @@ pipeline {
         HEALTH_PATH    = '/health'
         DATA_VOL       = "${APP_ID}-data"
         PUBLIC_URL     = 'https://seasons.borrellofamily.co.uk/'
+        // "Build with Parameters" can override the provider for a single run.
+        AI_PROVIDER    = "${params.AI_PROVIDER ?: DEFAULT_AI_PROVIDER}"
+    }
+
+    parameters {
+        choice(name: 'AI_PROVIDER', choices: DEFAULT_AI_PROVIDER == 'openai' ? ['openai', 'gemini'] : ['gemini', 'openai'], description: 'AI provider for this deploy')
     }
 
     stages {
@@ -50,9 +60,12 @@ pipeline {
 
         stage('Deploy + health check') {
             steps {
-                withCredentials([
-                    string(credentialsId: 'seasonal-quest-gemini-api-key', variable: 'GEMINI_API_KEY'),
-                ]) {
+                script {
+                    def keyVar = env.AI_PROVIDER == 'openai' ? 'OPENAI_API_KEY' : 'GEMINI_API_KEY'
+                    def credId = "${env.APP_ID}-${env.AI_PROVIDER == 'openai' ? 'openai' : 'gemini'}-api-key"
+                    env.AI_KEY_VAR = keyVar
+                    echo "AI provider: ${env.AI_PROVIDER} (credential ${credId})"
+                    withCredentials([string(credentialsId: credId, variable: 'AI_API_KEY')]) {
                     sh '''
                         run_app() {
                             docker rm -f $CONTAINER >/dev/null 2>&1 || true
@@ -61,7 +74,8 @@ pipeline {
                                 --restart unless-stopped \
                                 -p 127.0.0.1:$HOST_PORT:$CONTAINER_PORT \
                                 -e APP_ENV=production \
-                                -e GEMINI_API_KEY="$GEMINI_API_KEY" \
+                                -e AI_PROVIDER="$AI_PROVIDER" \
+                                -e "$AI_KEY_VAR=$AI_API_KEY" \
                                 -e AI_IMAGES_PER_DAY=40 \
                                 -e AI_TEXT_PER_DAY=300 \
                                 -v $DATA_VOL:/app/data \
@@ -97,6 +111,7 @@ pipeline {
                         fi
                         exit 1
                     '''
+                    }
                 }
             }
         }

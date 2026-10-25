@@ -2,14 +2,16 @@
 // agreement) and adds a per-product emoji and fun fact. Results go to
 // content/content-overrides.json, which build-catalog.mjs merges; the raw source is untouched.
 //
-// Usage:
-//   GEMINI_API_KEY=... node scripts/clean-content.mjs [--model=gemini-3.8-flash] [--only=id1,id2] [--force] [--dry-run]
+// Usage (uses AI_PROVIDER / GEMINI_API_KEY / OPENAI_API_KEY like the server):
+//   GEMINI_API_KEY=... node scripts/clean-content.mjs [--model=...] [--only=id1,id2] [--force] [--dry-run]
+//   OPENAI_API_KEY=... node scripts/clean-content.mjs ...
 // Already-cleaned products are skipped unless --force is given, so it can be re-run after a failure.
 import { readFileSync, writeFileSync, existsSync, renameSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { buildCatalog, normalizeProduct } from './build-catalog.mjs';
-import { createGeminiAi } from '../server/ai.js';
+import { createAi } from '../server/ai.js';
+import { loadConfig } from '../server/config.js';
 import { CONTENT_FIX_SCHEMA, contentFixPrompt } from '../server/prompts.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -23,19 +25,21 @@ const args = Object.fromEntries(
     return [k, v ?? true];
   }),
 );
-const model = typeof args.model === 'string' ? args.model : process.env.GEMINI_CONTENT_MODEL || 'gemini-3.8-flash';
+const aiConfig = loadConfig().ai;
+const providerConfig = aiConfig[aiConfig.provider];
+const model = typeof args.model === 'string' ? args.model : providerConfig?.contentModel ?? 'n/a';
 const only = typeof args.only === 'string' ? new Set(args.only.split(',')) : null;
 
 const source = JSON.parse(readFileSync(SOURCE, 'utf8'));
 const overrides = existsSync(OVERRIDES) ? JSON.parse(readFileSync(OVERRIDES, 'utf8')) : {};
 const todo = source.products.filter((p) => (only ? only.has(p.id) : true)).filter((p) => args.force || !overrides[p.id]);
 
-console.log(`${todo.length} product(s) to clean with ${model}${args['dry-run'] ? ' (dry run)' : ''}`);
+console.log(`${todo.length} product(s) to clean with ${aiConfig.provider}/${model}${args['dry-run'] ? ' (dry run)' : ''}`);
 if (args['dry-run'] || todo.length === 0) process.exit(0);
 
-const ai = createGeminiAi({ apiKey: process.env.GEMINI_API_KEY, textModel: model, imageModel: 'unused' });
+const ai = createAi(aiConfig);
 if (!ai) {
-  console.error('GEMINI_API_KEY is not set');
+  console.error('No AI key: set GEMINI_API_KEY or OPENAI_API_KEY (and optionally AI_PROVIDER)');
   process.exit(1);
 }
 
