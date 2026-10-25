@@ -31,7 +31,7 @@ export function loadConfig(env = process.env) {
       provider,
       gemini: {
         apiKey: geminiKey,
-        imageModel: env.GEMINI_IMAGE_MODEL || 'gemini-nano-banana-2.1',
+        imageModel: env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-lite-image',
         textModel: env.GEMINI_TEXT_MODEL || 'gemini-3.1-flash-lite',
         contentModel: env.GEMINI_CONTENT_MODEL || 'gemini-3.8-flash',
       },

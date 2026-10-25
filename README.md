@@ -58,7 +58,7 @@ Because the portal currently shares one login per family, each child gets an **e
 | `DEV_USER` | `dev` | Local user when not in production |
 | `AI_PROVIDER` | auto | `gemini` or `openai`; empty = whichever key is set (Gemini first) |
 | `GEMINI_API_KEY` | — | |
-| `GEMINI_IMAGE_MODEL` | `gemini-nano-banana-2.1` | `gemini-3.1-flash-lite-image` is cheaper/faster |
+| `GEMINI_IMAGE_MODEL` | `gemini-3.1-flash-lite-image` | Same price as `gemini-nano-banana-2.1` but 3–4× faster (~3 s/image) |
 | `GEMINI_TEXT_MODEL` | `gemini-3.1-flash-lite` | Quiz + chat |
 | `GEMINI_CONTENT_MODEL` | `gemini-3.8-flash` | Only for `npm run clean-content` |
 | `OPENAI_API_KEY` | — | |
@@ -100,6 +100,8 @@ docker compose up --build       # production image on http://localhost:8096
 
 - `npm run catalog` rebuilds `content/catalog.json` from the raw source and
   `content/content-overrides.json` (if present).
+- `content/content-overrides.json` now holds an edited, reviewed bilingual version of every product, with fixed stories, notes, a fun fact and an emoji.
+  Edit it by hand for small corrections, then run `npm run catalog`.
 - `npm run clean-content` is an optional one-off AI pass (about 56 calls, using the configured provider). It fixes Italian text sitting in English
   fields, grammar and gender agreement, and adds a fun fact and emoji per product. It writes
   `content/content-overrides.json` and rebuilds the catalog. Re-running it skips products already done
